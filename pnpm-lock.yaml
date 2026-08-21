@@ -189,8 +189,8 @@ catalogs:
       specifier: 0.1.19
       version: 0.1.19
     '@rushstack/worker-pool':
-      specifier: 0.7.23
-      version: 0.7.23
+      specifier: 0.7.24
+      version: 0.7.24
     '@stylistic/eslint-plugin':
       specifier: ^5.10.0
       version: 5.10.0
@@ -9697,7 +9697,7 @@ importers:
         version: link:../store/index
       '@rushstack/worker-pool':
         specifier: 'catalog:'
-        version: 0.7.23(@types/node@22.19.19)
+        version: 0.7.24(@types/node@22.19.19)
       is-windows:
         specifier: 'catalog:'
         version: 1.0.2
@@ -12131,8 +12131,9 @@ packages:
       '@types/node':
         optional: true
 
-  '@rushstack/worker-pool@0.7.23':
-    resolution: {integrity: sha512-l98SwHhJZlL/kmAFueUzRV5K4ivENJwBx5J5gY3mc73YCUSj8C3GrnhjW1Zebm3jpmSQaobONGgtRs31vS+Clw==}
+  '@rushstack/worker-pool@0.7.24':
+    resolution: {integrity: sha512-nADBiBnk/sIkJfqpgOLRDgOQwoWybD9ckD0iLslRqPo9tj2irqP9/9tQ1XDwzdF+WFv2h9nVUaTNxpngwnHxmA==}
+    engines: {node: '>=20.9.0'}
     peerDependencies:
       '@types/node': '*'
     peerDependenciesMeta:
@@ -19764,7 +19765,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 22.19.19
 
-  '@rushstack/worker-pool@0.7.23(@types/node@22.19.19)':
+  '@rushstack/worker-pool@0.7.24(@types/node@22.19.19)':
     optionalDependencies:
       '@types/node': 22.19.19
 
